@@ -1,0 +1,162 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	position: absolute;
+	height: 180px;
+	background-color: #fff;
+	border: 1px solid black;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 1px 2px 3px 2px black;
+	border-radius: 0.5em;
+}
+
+.header {
+	width: 100%;
+	height: 50px;
+	background-color: #cc181e;
+	border-radius: 0.5em 0.5em 0 0;
+}
+
+.icons {
+	line-height: 1.2em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.icon_youtube {
+	color: black;
+	font-weight: 500;
+	font-size: 2.5em;
+	float: left;
+}
+
+.icon_link {
+	line-height: 1.5em;
+}
+
+.icon_youtube:hover {
+	cursor: pointer;
+	color: #fff;
+}
+
+.header h3 {
+	font-weight: 500;
+	float: left;
+	color: black;
+	text-shadow: 1px 1px 0px gray;
+}
+
+form {
+	padding: 1em;
+}
+
+.form-control:focus {
+	border-color: #cc181e;
+	box-shadow: 0 0 0 0.1em #cc181e;
+} 
+
+.btn_baixar, .btn_audio {
+	text-align: center;
+}
+
+.btn_baixar {
+	color: #fff;
+	border-color: #cc181e;
+	background-color: #cc181e;
+	font-size: 1.2em;
+}
+
+.btn_audio {
+	font-size: 1.2em;
+}
+
+.btn_baixar:hover {
+	border-color: #E3171E;
+	background-color: #E3171E;
+}
+
+.btn_baixar:active {
+	background-color: #cc181e !important;
+	border-color: #cc181e !important;
+}
+
+/*Modal*/
+dialog {
+	position: absolute;
+	border-radius: 0.5em 0.5em 0.5em;
+	height: 125px;
+	background-color: #fff;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+dialog nav {
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background-color: #cc181e;
+	padding-left: 5px;
+}
+
+dialog h3 {
+	float: left;
+	width: 90%;
+}
+
+dialog span {
+	cursor: pointer;
+	height: 40px;
+	width: 10%;
+	text-align: center;
+	line-height: 2.5em;
+	font-weight: bold;
+	float: right;
+}
+
+dialog p {
+	width: 100%;
+	font-size: 1.2em;
+	padding-left: 5px;
+}
+
+dialog h3, dialog span {
+	padding: 0px;
+	margin: 0px;
+}
+
+dialog::backdrop{
+  background-color: rgba(0,0,0, 0.9);
+}
+/*End Modal*/
+
+@media only screen and (max-width: 990px){
+	main {
+		width: 80%;
+	}
+	.header h3 {
+		line-height: 2em;
+		font-size: 4.2vh;
+	}
+	dialog {
+		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 991px){
+	main {
+		width: 60%;
+	}
+	.header h3 {
+		line-height: 1.5em;
+		font-size: 5vh;
+	}
+	dialog {
+		width: 35%;
+	}
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<title> Baixar Vídeos do Youtube </title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<dialog>
+			<nav>
+				<h3> Ops... </h3>
+				<span id="close"> X </span>
+			</nav>
+			<p>
+				URL não Corresponde a Nenhuma Mídia do Youtube!
+			</p>
+		</dialog>
+		<main>
+			<div class="header">
+				<i class="fa fa-youtube icons icon_youtube"></i>
+				<h3> Baixar Mídias do Youtube </h3>
+			</div>
+			<form>
+				<div class="input-group mb-3">
+				  <div class="input-group-prepend">
+					<span class="input-group-text span_url" id="basic-addon1"><i id="link" class="fa fa-link icon_link"></i></span>
+				  </div>
+				  <input type="text" class="form-control" id="url" placeholder="link do vídeo..." aria-label="Username" aria-describedby="basic-addon1" required>
+				</div>
+				<button type="button" class="btn btn-primary btn_baixar" onclick="baixar(document.getElementById('url').value, 'video')">Baixar Vídeo</button>
+				<button type="button" class="btn btn-primary btn_audio" onclick="baixar(document.getElementById('url').value, 'mp3')">Baixar Áudio</button>
+			</form>
+		</main>
+		<script type="text/javascript" src="js/principal.js"></script>
+	</body>
+</html>
