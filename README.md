@@ -4,6 +4,9 @@
 
 Esse Software Web tem a capacidade de Baixar Mídias do Youtube (Áudio e Vídeo) com apenas um clique
 
+## Tela:
+![image](https://user-images.githubusercontent.com/55303217/216520072-59def5d2-b738-483f-ae6d-bdf946f05742.png)
+
 ## Modo de Uso:
 Para usá-lo é bem simples, basta copiar a URL do vídeo do Youtube que você deseja Baixar o áudio ou vídeo, em seguida cole o link no campo disponível e escolha se prefere baixar o áudio ou vídeo dessa URL.
 
