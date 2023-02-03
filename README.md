@@ -14,4 +14,5 @@ Tanto os Áudios quanto os Vídeos baixados vem nomeados por padrão como "audio
 Os Áudios baixados vem com o Formato "MP3" por padrão, enquanto que os vídeos vem com o Formato "MP4" por padrão.
 
 ## Dependências:
-![Nuget](https://img.shields.io/nuget/dt/HtmlAgilityPack?label=HtmlAgilityyPack)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/ViniciusBarnabe2019/Download-Video-Youtube/express)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/ViniciusBarnabe2019/Download-Video-Youtube/ytdl-core)
