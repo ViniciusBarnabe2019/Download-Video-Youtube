@@ -33,7 +33,7 @@ function baixar(url, tipo){
 		modal.showModal()			
 	}
 	else{
-		window.open("http://localhost:8080/download/?url=" + url + "&tipo=" + tipo)
+		window.location.assign("http://localhost:8080/download/?url=" + url + "&tipo=" + tipo)
 	}
 }
 
